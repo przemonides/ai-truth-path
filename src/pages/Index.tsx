@@ -235,22 +235,25 @@ const Index = () => {
               </p>
             </div>
             <div className="flex items-center space-x-6">
-              <a href="mailto:kontakt@aiconsulting.pl" className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-smooth">
+              <a href="mailto:przemek@pbx.agency" className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-smooth">
                 <Mail className="w-4 h-4" />
-                <span className="text-sm">kontakt@aiconsulting.pl</span>
+                <span className="text-sm">przemek@pbx.agency</span>
               </a>
-              <a href="tel:+48123456789" className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-smooth">
+              <a href="tel:+48606146588" className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-smooth">
                 <Phone className="w-4 h-4" />
-                <span className="text-sm">+48 123 456 789</span>
+                <span className="text-sm">+48 606 146 588</span>
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary transition-smooth">
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>
           </div>
-          <div className="border-t border-border/20 mt-8 pt-6 text-center">
+          <div className="border-t border-border/20 mt-8 pt-6">
+            <div className="text-center mb-4 text-sm text-muted-foreground">
+              <p>Kościuszki 3/10, 44-100 Gliwice</p>
+            </div>
             <div className="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-6 text-sm text-muted-foreground">
-              <a href="#" className="hover:text-primary transition-smooth">Polityka prywatności</a>
+              <a href="/privacy-policy" className="hover:text-primary transition-smooth">Polityka prywatności</a>
               <span className="hidden md:inline">•</span>
               <span>© 2024 AI Consulting. Wszystkie prawa zastrzeżone.</span>
             </div>
