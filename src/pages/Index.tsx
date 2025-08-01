@@ -26,6 +26,20 @@ const Index = () => {
         </Button>
       </section>
 
+      {/* AI Introduction Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="section-heading text-primary mb-8 text-center">
+              Sztuczna inteligencja – więcej pytań niż odpowiedzi
+            </h2>
+            <p className="body-large text-muted-foreground text-center mb-8">
+              Choć AI jest dziś na ustach wszystkich, większość firm wciąż nie wie, co naprawdę kryje się za tym terminem. Czym różni się realna sztuczna inteligencja od marketingowego hasła? Skąd wiedzieć, które rozwiązania mają sens, a które to tylko kolejna chwilowa moda?
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Problem Section */}
       <section className="bg-secondary/20 py-20">
         <div className="container mx-auto px-6 text-center">
@@ -57,6 +71,20 @@ const Index = () => {
                 Nie wiesz, od czego zacząć?
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Expectations Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="section-heading text-primary mb-8 text-center">
+              Od wielkich oczekiwań do pierwszych rozczarowań
+            </h2>
+            <p className="body-large text-muted-foreground text-center mb-8">
+              Wielu liderów zaczyna przygodę z AI z ogromnymi nadziejami – licząc na przełomowe zmiany. Pierwsze próby wdrożenia często okazują się jednak trudniejsze, niż zakładano. Wyniki nie przychodzą od razu, a efekty bywają mniej spektakularne niż obietnice. Zaczynają się pytania: czy to na pewno działa, czy może robimy coś źle?
+            </p>
           </div>
         </div>
       </section>
@@ -99,6 +127,20 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Culture Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="section-heading text-primary mb-8 text-center">
+              Kultura organizacyjna – największa przeszkoda (i szansa)
+            </h2>
+            <p className="body-large text-muted-foreground text-center mb-8">
+              Nawet najlepsza technologia nie zadziała, jeśli nie jest gotowa na nią organizacja. Zderzenie nowych narzędzi z dotychczasowymi sposobami pracy, opór przed zmianą, obawy o kompetencje – to najczęstsze bariery, z którymi mierzą się zespoły. Sukces wdrożenia AI zależy bardziej od ludzi niż od kodu.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Social Proof Section */}
       <section className="bg-secondary/20 py-20">
         <div className="container mx-auto px-6">
@@ -116,6 +158,39 @@ const Index = () => {
               author="Tomasz"
               company="właściciel firmy produkcyjnej"
             />
+          </div>
+        </div>
+      </section>
+
+      {/* Methodology Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="section-heading text-primary mb-8 text-center">
+              Od teorii do praktyki – jak przejść tę drogę bezpiecznie?
+            </h2>
+            <p className="body-large text-muted-foreground text-center mb-12">
+              Dlatego nasze podejście opiera się nie tylko na technologii, ale też na edukacji i wsparciu organizacyjnym. Pokazujemy, jak krok po kroku przekładać AI na konkretne korzyści – i uniknąć pułapek, przez które przechodzi większość firm. Rozmawiajmy o realnych wdrożeniach, nie o hype'ie.
+            </p>
+            <div className="bg-secondary/30 p-8 rounded-lg border border-border/20">
+              <h3 className="text-xl font-semibold text-primary mb-6 text-center">
+                Warsztatowa praca w metodyce Design Thinking
+              </h3>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 className="font-semibold text-foreground mb-3">Realne narzędzia</h4>
+                  <p className="text-muted-foreground text-sm">
+                    Pracujemy na rzeczywistych narzędziach AI – od pierwszego dnia szkolenia zespół poznaje konkretne rozwiązania, które może od razu zastosować w swojej pracy.
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-foreground mb-3">Prototypy podczas szkolenia</h4>
+                  <p className="text-muted-foreground text-sm">
+                    Nie kończymy na teorii – już w trakcie warsztatów budujemy pierwsze prototypy narzędzi AI dostosowanych do specyfiki Waszej organizacji.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
