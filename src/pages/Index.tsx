@@ -127,13 +127,8 @@ const Index = () => {
             O mnie
           </h2>
           <div className="max-w-2xl mx-auto">
-            <p className="body-large text-muted-foreground mb-6">
-              Przemek Blicharski – psycholog, ekspert AI, praktyk biznesowy z doświadczeniem 
-              we wdrożeniach dla firm każdej wielkości.
-            </p>
-            <p className="text-muted-foreground">
-              Łączę wiedzę z zakresu psychologii biznesu z najnowszymi technologiami AI, 
-              by tworzyć rozwiązania, które rzeczywiście wspierają rozwój organizacji.
+            <p className="body-large text-muted-foreground">
+              Przemek Blicharski – psycholog, ekspert AI i praktyk biznesowy. Od 2014 roku wspieram firmy we wdrożeniach narzędzi analitycznych oraz rozwiązań z zakresu klasycznej sztucznej inteligencji (ML). Pomagam przełożyć technologię na realne efekty biznesowe.
             </p>
           </div>
         </div>
@@ -161,7 +156,7 @@ const Index = () => {
             <div className="text-center md:text-left">
               <div className="text-xl font-medium text-primary mb-2">AI Consulting</div>
               <p className="text-sm text-muted-foreground">
-                Przemek Blicharski - Ekspert AI i Psycholog Biznesu
+                Przemek Blicharski - AI ekspert, Data Strategy Manager, psycholog
               </p>
             </div>
             <div className="flex items-center space-x-6">
