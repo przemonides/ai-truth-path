@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Check, Mail, Phone, Linkedin } from "lucide-react";
 import ConsultationForm from "@/components/ConsultationForm";
 import Testimonial from "@/components/Testimonial";
-import NeuralBackground from "@/components/NeuralBackground";
+import GeometricBackground from "@/components/GeometricBackground";
 import ScrollReveal from "@/components/ScrollReveal";
 import AnimatedCounter from "@/components/AnimatedCounter";
 import FloatingElements from "@/components/FloatingElements";
@@ -23,7 +23,7 @@ const Index = () => {
 
       {/* Hero Section */}
       <section className="relative container mx-auto px-6 py-20 lg:py-32 text-center">
-        <NeuralBackground className="opacity-30" />
+        <GeometricBackground className="opacity-20" />
         <ScrollReveal>
           <h1 className="hero-heading text-primary mb-6 max-w-4xl mx-auto">
             AI. Fakty zamiast hype'u.
@@ -254,7 +254,7 @@ const Index = () => {
 
       {/* CTA Section */}
       <section className="bg-primary py-20 relative overflow-hidden">
-        <NeuralBackground className="opacity-20" />
+        <GeometricBackground className="opacity-20" />
         <div className="container mx-auto px-6 text-center relative z-10">
           <ScrollReveal>
             <h2 className="section-heading text-primary-foreground mb-8">
