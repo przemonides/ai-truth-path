@@ -243,7 +243,7 @@ const Index = () => {
                 <Phone className="w-4 h-4" />
                 <span className="text-sm">+48 606 146 588</span>
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-smooth">
+              <a href="https://www.linkedin.com/in/blicharskip/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-smooth">
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>
