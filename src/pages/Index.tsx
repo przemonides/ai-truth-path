@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Check, Mail, Phone, Linkedin } from "lucide-react";
+import { Check, Mail, Phone, Linkedin, Cpu } from "lucide-react";
 import ConsultationForm from "@/components/ConsultationForm";
 import Testimonial from "@/components/Testimonial";
 import GeometricBackground from "@/components/GeometricBackground";
@@ -9,6 +9,13 @@ import FloatingElements from "@/components/FloatingElements";
 import CursorGlow from "@/components/CursorGlow";
 
 const Index = () => {
+  const scrollToForm = () => {
+    const formSection = document.getElementById('consultation-form');
+    if (formSection) {
+      formSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-background relative overflow-hidden">
       <CursorGlow />
@@ -17,7 +24,10 @@ const Index = () => {
       {/* Header */}
       <header className="container mx-auto px-6 py-6">
         <div className="flex justify-between items-center">
-          <div className="text-xl font-medium text-primary">AI Consulting</div>
+          <div className="flex items-center space-x-2 text-xl font-medium text-primary">
+            <Cpu className="w-6 h-6" />
+            <span>AIGEN</span>
+          </div>
         </div>
       </header>
 
@@ -35,7 +45,7 @@ const Index = () => {
           </p>
         </ScrollReveal>
         <ScrollReveal delay={400}>
-          <Button variant="ai" size="lg" className="cursor-interactive">
+          <Button variant="ai" size="lg" className="cursor-interactive" onClick={scrollToForm}>
             Umów bezpłatną konsultację
           </Button>
         </ScrollReveal>
@@ -267,7 +277,7 @@ const Index = () => {
             </p>
           </ScrollReveal>
           <ScrollReveal delay={400}>
-            <div className="bg-background rounded-lg p-8 max-w-lg mx-auto shadow-xl">
+            <div id="consultation-form" className="bg-background rounded-lg p-8 max-w-lg mx-auto shadow-xl">
               <ConsultationForm />
             </div>
           </ScrollReveal>
